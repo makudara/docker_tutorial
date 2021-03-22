@@ -1,6 +1,17 @@
 # docker_tutorial
 docker で開発環境を作るあれこれ
 
+# docker 環境の設定
+
+1. 動かしたい環境を決める
+  + python
+  + vue.js+fastAPI 
+2. dockerのインストール
+3. docker imageのpull
+4. dockerコンテナを起動
+5. docker image をbuildする
+6. python を実行する
+
 # よくある質問
 
 + Q: dockerってなに？
@@ -17,10 +28,12 @@ docker で開発環境を作るあれこれ
   + A: docker イメージ
   + 実体化する前の仮想環境。class的な存在をイメージして貰えば大体OK
   + これを引っ張ってきたり(pull) 作ったり(build)して準備する
+  + たい焼き機の型
 + Q: コンテナ？
   + A: docker コンテナ
   + 実際に操作できるイメージの具体化。メモリとか資源が割り当てられてる状態
   + classと同じで、同じイメージだけど違うコンテナとかも作れる
+  + たい焼き機で作ったたい焼きそのもの
 + Q: イメージの作り方は？
   + A: docker image python
   + 誰かが作ってくれたのを引っ張ってくる方法。基本的にはこれで済ませたい。
